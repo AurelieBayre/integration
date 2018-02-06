@@ -7,7 +7,7 @@ General
 body { 
     font-size: 16px;
     margin: 0; 
-    padding: 0; 
+    padding: 0;
 }
 
 
@@ -21,11 +21,15 @@ body {
 Header
 ==================================================
 */
+
+
 header {
-    background: url(/Users/Aurelie/Desktop/integrationWCS/fruits/images/1112.jpg) center no-repeat;
-    background-size: 1000px auto;
-    height: 500px;
+    background: url(images/1112.jpg) center no-repeat;
+    background-size: 800px auto;
+    height: 300px;
+    
 }
+
 #logoTitle {
     border-style: solid;
     border-width: 0.3rem;
@@ -34,21 +38,33 @@ header {
     height: 8.5rem;
     background-color: #FFF;
     margin-left: 2rem;
-}
-#headerWrap {
     
+    z-index: 999;
 }
+
+
 /*
 ==================================================
 navbar
 ==================================================
 */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 990;
+    height: 3.5em;
+    background-color: orange; 
+
+}
 
 /*
 ==================================================
 section
 ==================================================
 */
+#juicyfruitsalad {
+    
+}
 /*
 ==================================================
 footer

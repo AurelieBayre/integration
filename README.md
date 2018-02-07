@@ -8,3 +8,7 @@ integrating webdesign
  
 [Link to the examples](http://innoveduc.fr/website-templates/)
 
+
+## achievements
+
+* [Fruit Salad (mobile)](https://github.com/AurelieBayre/integration/blob/master/fruitsalad/index.html)

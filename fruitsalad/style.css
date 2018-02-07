@@ -8,6 +8,7 @@ body {
     font-size: 16px;
     margin: 0; 
     padding: 0;
+    background-color: white;
 }
 
 
@@ -15,20 +16,20 @@ body {
     margin: 0 auto;
     max-width: 700px;
     position: relative;
+   
 }
 h1, h2, h3 {
     font-family: 'Slabo 27px', serif;
-    text-align: center;
+    
 }
 
 h1 {
-    color: rgba(50, 50, 50);
+    color: rgba(40, 40, 40);
     font-size: 2em;
     margin-top: 1em;
 }
 h2 {
     font-size: 2em;
-    color: rgba(78, 78, 78);
 }
 h3 {
     font-size: 1.5em;
@@ -37,7 +38,7 @@ p {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.3em;
     line-height: 2em;
-    text-align: center;
+   
     
 }
 /*
@@ -51,7 +52,6 @@ header {
     background: url(images/1112.jpg) center no-repeat;
     background-size: 800px auto;
     height: 300px;
-    
 }
 
 
@@ -79,8 +79,8 @@ nav {
     width: 8rem;
     height: 8.5rem;
     background-color: #FFF;
+   
     margin-left: 2rem;
-    
     z-index: 999;
 }
 
@@ -93,7 +93,13 @@ nav {
 section
 ==================================================
 */
+#intro {
+    text-align: center;
+}
 
+section h2 {
+    text-align: center;
+}
 
 .highlightOrange {
     color: orange;
@@ -120,8 +126,8 @@ width: 90%;
 
 #jsf {
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 30%;
+    left: 30%;
 }
 .textOverImg {
     background: rgba(0, 0, 0, 0.616);
@@ -129,27 +135,108 @@ width: 90%;
     display: block;
     padding: 0.2em 0.7em 0.2em 0.7em;
 }
+.bestSalad {
+    color: rgba(78, 78, 78);
+    margin-top: 1em;
+}
 
 
 .example {
     text-align: center;
-   margin: 1em 2em 1em 2em;
+   position: relative;
+   margin-bottom: 1.5em;
 }
-.example p {
+
+
+.example h3 {
+    color: orange;
+    margin-top: 1em;
     text-align: left;
 }
-.readMore {
-    background-color: rgb(78, 78, 78);
-    color: whitesmoke;
+.example .description {
+    text-align: left;
 }
- 
 
+.example img {
+    margin-top: 4em;
+    width: 100%;
+    height: auto;
+}
+
+.example .legend {
+    background: rgb(50, 50, 50);
+    color: whitesmoke;
+    display: inline-block;
+    padding: 0.1em 1em 0.1em 1em;
+    position: absolute;
+    top: 18%;
+    left: 0;
+}
+
+#firstExample img {
+    margin-top: 1.5em;
+}
+.readMore {
+    background: rgb(78, 78, 78);
+    color: whitesmoke;
+    display: inline-block;
+    padding: 0.2em 0.8em 0.2em 0.8em;
+    text-align: left;
+    margin-top: 0.6em;
+    margin-bottom: 0.8em;
+    position: absolute;
+    left: 0;
+   
+}
+
+#conclusion {
+    background: url(images/bg-1.jpg) left bottom, no-repeat;
+    background-size: 1200px auto;
+    height: 20em;
+    margin-top: 5em;
+    
+}
+
+ .orangeFilter {
+    background-color: rgba(255, 153, 0, 0.6);
+    color: whitesmoke;
+    height: 20em;
+    text-align: left;
+    padding: 1em 2em 0 2em;
+ }
+
+ .orangeFilter h2 {
+     margin-top: 0.5em;
+     margin-bottom: 0.5em;
+     text-align: left;
+     
+ }
 /*
 ==================================================
 footer
 ==================================================
 */
 
+footer {
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    border-top: 15px solid white;
+}
+footer h2, footer #copyright {
+    color: whitesmoke;
+}
+footer ul li {
+    color: #d1cece;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#copyright {
+    background-color: orange;
+}
+#endNavigation {
+    background-color: white;
+    padding: 3em 2em 1em 0;
+    text-align: right;
+}
 /*
 ==================================================
 Media Queries
